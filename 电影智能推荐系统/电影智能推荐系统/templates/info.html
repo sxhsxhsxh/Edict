@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>七人行--个人中心--账号</title>
+  <link rel="shortcut icon" href="../static/images/gr.png" type="image/png">
+  <link rel="stylesheet" href="../static/css/info.css" type="text/css">
+	 <script src="../static/js/jquery-1.11.3.js"></script>
+ </head>
+ <body>
+	<!-- 1.导航栏 -->
+	<div id="top"></div>
+	<div id="box">
+		<div id="nav">							
+			<div class="d1">个人中心</div>
+			<a href="history">
+				<div class="d2 c1">
+				观看历史
+				</div>
+			</a>
+			<a href="info">
+				<div class="d3 c2">
+				账号
+				</div>
+			</a>
+			<a href="member">
+				<div class="d3 c3">
+				会员
+				</div>
+			</a>
+			<a href="set">
+				<div class="d3 c4">
+				设置
+				</div>
+			</a>
+			<a href="update">
+				<div class="d3 c5">
+				关于
+				</div>
+			</a>	
+		</div>
+		<div id="main">
+			<p class="history">修改个人信息</p>
+			<hr/>
+			<form action="" method="post">				
+				<p class="align">
+					<span>图像:</span>
+					<input type="file" name="file" value="">
+				</p>
+				<p>
+					<span>用户名:</span>
+					<input type="text" name="uname" value="{{user.uname}}">
+				</p>
+				<p class="align">
+					<span>密码:</span>
+					<input type="password" name="upwd" value="{{user.pwd}}">
+				</p>
+				<p class="align">
+					<span>邮箱:</span>
+					<input type="email" name="email" value="{{user.email}}">
+				</p>
+				<p>
+					<span>手机号:</span>
+					<input type="text" name="phone" maxlength="11" value="{{user.tel}}">
+				</p>
+				<input type="hidden" name="id" value="{{user.id}}">
+				<a href="info">数据重置</a>
+				<button>确认修改</button>
+			</form>
+		</div>
+	</div>
+	<div id="bottom"></div>
+ </body>
+</html>

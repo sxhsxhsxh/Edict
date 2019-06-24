@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    	<link rel="stylesheet" href="../static/css/logoin.css" type="text/css">
+		<script src='../static/js/jquery-1.11.3.js'></script>
+		<script src='../static/js/logo.js'></script>
+</head>
+<body>
+<form action="/login" method="post">
+    <div id="box">
+        <div id="title">
+				<img src="../static/images/010101.gif">
+        </div>
+        <div id="main">
+            <div>
+                <img src="../static/images/user.png" class="account-img" >
+                <input type="text" class="account1" placeholder="account:" name="uname">
+                 <span id="tip">
+                      {% if tip %}
+                          {{ tip }}
+                      {% endif %}
+                 </span>
+            </div>
+            <div>
+                <img src="../static/images/password.png" >
+                <input type = "password"  placeholder="password:" name="upwd">
+            </div>
+            <div id="kw">
+                <input type="checkbox">
+                <span>remember password</span>
+            </div>
+            <button class="btn">login</button>
+            <div id="image">
+				<ul>
+					<li><img src="../static/images/wx.png" ></li>
+					<li><img src="../static/images/wb.jfif" ></li>
+					<li><img src="../static/images/dd.jpg" ></li>
+					<li><img src="../static/images/qq.png" ></li>
+				</ul>
+			</div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

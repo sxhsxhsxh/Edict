@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../static/css/first-page.css">
+		<script src="../static/js/jquery-1.11.3.js"></script>
+		<script src="../static/js/first-page.js"></script>
+	</head>
+	<body>
+    <form action="/01-search" method="post">
+		<div id="a1">
+			<marquee behavior="alternate">
+				欢迎进入七人行电影网
+			</marquee>
+			<div id="header">
+				<img src="../static/images/logo.png" class="logo">
+				<input type="text" placeholder="请输入电影名字或关键字" name="move_name" id="move_name">
+				<button id="btn" >search</button>
+				<div class = "center">
+					<div class="person">
+						<img src="../static/images/person.png" >
+						<a href="/checklogin?page=info"><span>个人中心</span></a>
+					</div>
+					<div class="money">
+						<img src="../static/images/money.jpg" >
+						<a href="">金钱攻势</a>
+					</div>	
+					<div id="history">
+						<img src="../static/images/logo.png" >
+						<a href="/checklogin?page=history">雁过留影</a>
+					</div>
+					<div class="btn">
+						<img src="../static/images/btn.jpg">
+						<a href="/checklogin?page=recommend">众里寻它</a>
+                    </div>
+                    <div class="logreg">
+                        <a href='/03-log'><span>登录</span></a>
+                        <a href="/02_reg"><span>注册</span></a>
+					</div>
+				</div>
+			</div>
+			<div id="banner">
+				<div class="b-img">
+					<img src="../static/images/img1.jpg">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<a href="javascript:void(0)" class="left"></a>
+					<a href="javascript:void(0)" class="right"></a>
+				</div>
+				<div class="b-word">
+					<h3><b>电影分类>></b></h3>
+					<div class="language">
+						<h4>语种</h4>
+						<span>华语</span>
+						<span>英语</span>
+						<span>日语</span>
+						<span>俄语</span>
+						<span>其他</span>
+					</div>
+					<div class="type">
+						<h4>类型</h4>
+						<span>动作</span>
+						<span>科幻</span>
+						<span>爱情</span>
+						<span>战争</span>
+						<span>穿越</span>
+						<span>恐怖</span>
+						<span>喜剧</span>
+						<span>其他</span>
+					</div>
+					<div class="time">
+						<h4>上映时间</h4>
+						<span>2019</span>
+						<span>2018</span>
+						<span>2017</span>
+						<span>2016</span>
+						<span>2015</span>
+						<span>更早</span>
+						
+					</div>
+					<div class="yanyuan">
+						<h4>演员 </h4>
+						<span>刘德华</span>
+						<span>古天乐 </span>
+						<span>刘青云</span>
+						<span>其他</span>
+					</div>
+				</div>
+			</div>
+			<div id="hot_move">
+				<div class="hint">
+					<span>华语剧场</span>
+					<a href="/04-more"><span>更多</span></a>
+				</div>
+				<div id="china">
+					<div>
+						<img src = "../static/images/hot1.jfif">
+						<span>建军大业</span>
+					</div>
+					<div>
+						<img src = "../static/images/hot2.jpg">
+						<span>湄公河行动</span>
+					</div>
+					<div>
+						<img src = "../static/images/hot3.jpg">
+						<span>岁月神偷</span>
+					</div>
+					<div>
+						<img src = "../static/images/hot4.jpg">
+						<span>头文字D</span>
+					</div>
+					<div>
+						<img src = "../static/images/hot5.jpg">
+						<span>反贪风暴4</span>
+					</div>
+				</div>		
+				<div class="hint">
+					<span>外语剧场</span>
+					<a href="/forginer"><span>更多</span></a>
+				</div>
+				<div id="foreign">
+					<div>
+						<img src = "../static/images/f1.jpg">
+						<span>速度与激情8</span>
+					</div>
+					<div>
+						<img src = "../static/images/f2.jpg">
+						<span>黑客帝国</span>
+					</div>
+					<div>
+						<img src = "../static/images/f3.jpg">
+						<span>一条狗的使命</span>
+					</div>
+					<div>
+						<img src = "../static/images/f4.jpg">
+						<span>驯龙高手3</span>
+					</div>
+					<div>
+						<img src = "../static/images/f5.jpg">
+						<span>终结者6</span>
+					</div>
+				</div>
+			</div>
+			<a href="/06-about"> <div id="footer">
+				<div class="foot-1">
+					 <h2>关于我们</h2>
+					 <h3>联系方式</h3>
+					 <h3>用户协议</h3>
+					 <h3>隐私政策</h3>
+				</div>
+				<div class = "foot-2">
+					 <h2>About Us</h2>
+					 <h3>Investor Relations</h3>
+					 <h3>Media Center</h3>
+				</div>
+				<div class="foot-3">
+					 <h2>内容合作</h2>
+					 <h3>七人行号</h3>
+					 <h3>内容合作方式</h3>
+					 <h3>七人行会员合作</h3>
+				</div>
+				<div class="foot-4">
+					 <h2>技术合作</h2>
+					 <h3>安全应急响应中心</h3>
+				</div>
+				<div class="f5">
+					 <h2>常见问题</h2>
+					 <h3>帮助中心</h3>
+					 <h3>侵权投诉</h3>
+				</div>
+			</div></a>
+			
+						
+		</div>
+        </form>
+	</body>
+</html>

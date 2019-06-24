@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 0;}
+body #a1{
+	width: 1000px;
+	margin-left: 500px;}
+ #a1 a{text-decoration: none;
+       color:black;}
+marquee	{background-color: aquamarine;
+		 font-size: 25px;
+		 opacity: 0.5;
+		 color:cornflowerblue;}
+#header{margin-top: 15px;
+	    
+		line-height: 100%;}
+#header .logo{width: 50px;
+			  height: 50px;}
+#header input{width: 300px;
+			  height: 50px;
+			  padding: 0;
+			  border:none;
+			  border: 2px solid bisque;
+			  vertical-align:top;
+			  border-radius: 25px 0 0 25px;
+			  margin-left: 80px;}
+#header button{width:70px;
+			   height: 54px;
+			   background-color: #A3CFDC;
+			   border: 2px solid bisque;
+			   font-size: 20px;
+			   padding: 0;
+			   vertical-align:top;}
+.center{float: right}
+.center div{display: inline-block;
+			margin-right: 20px;}
+.center img{width:50px;
+			height: 50px;
+			display: block;
+			margin-bottom: 10px;}
+.center a{font-size: 15px;
+		  text-decoration: none;
+		  color: black;
+		 }
+.center #history{margin-right: 20px}
+.center .logreg span{margin-right: 5px}
+#banner{margin-top: 30px;
+		height: 400px;
+		vertical-align:top;
+		display: inline-block;}
+#banner .b-img{display: inline-block;}		
+#banner img{width:600px;
+			height:350px;}		
+#banner a{
+	position:absolute;
+	width:50px;
+	height:70px;
+	border-radius:5px;
+	background:rgba(0,0,0,.1) url("../images/arrow-left.png") no-repeat center;
+	top:300px;}		
+#banner a.right{
+	right:5px;
+	background-image:url("../images/arrow-right.png");
+	left:750px;
+	top:300px}
+#banner .b-word{display: inline-block;
+				font-size: 15px;
+				vertical-align:top;
+				margin-left: 30px;}	
+#banner .b-word div{margin-bottom: 40px;}
+#banner .b-word h4{display: inline-block;
+					margin: 10px 10px 10px 0;}
+#banner .b-word span{margin-right: 5px;}
+#banner .b-word a{display: inline-block;}
+#hot_move{position: relative;
+		 font-size: 20px;}
+#hot_move .hint {height: 50px;
+				 background-color: aliceblue;
+				 border-radius: 15px;
+				 margin-bottom: 20px;}
+#hot_move .hint span{display: inline-block;
+					 line-height: 50px;}
+#hot_move .hint a{text-decoration: none;
+				  float:right;
+				  margin-top: 10px;
+				  color:black;}
+#china{height: 200px;}
+#china div{display: inline-block;
+		   float: left;
+		   margin-right: 50px;}
+#china div img{width: 150px;
+		   height: 150px;
+			display: block;}
+#china div span{margin-left: 25px;}
+#foreign{height: 200px;}
+#foreign div{display: inline-block;
+		   float: left;
+		   margin-right: 50px;}
+#foreign div img{width: 150px;
+		   height: 150px;
+			display: block;}
+#foreign div span{margin-left: 25px;}
+#footer{margin-top: 20px;
+		height:170px;
+		font-size:20px;}
+#footer div{margin-right: 60px;
+			float: left;
+			display: inline-block;}
+#footer div h3{font-weight: normal;
+				font-size: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a</title>
+    <style>
+        #box{margin-left: 100px;
+            margin-top: 100px;
+             width: 1000px;
+             height: 1000px;
+            position: relative}
+        #move_cont{position: absolute;
+                    left: 400px;
+                    top:0;
+                    width: 400px;
+                    height: 400px;}
+        #move_img img{width: 400px;
+                      height: 400px;}
+        #move_cont table td{width: 200px}
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="move_img">
+            <img src="..{{ re.movie_poster }} ">
+        </div>
+        <div id="move_cont">
+            <table cellpadding="20px"  style="border-collapse: collapse;">
+          <tr>
+              <th colspan="2">电影详情</th>
+          </tr>
+           <tr>
+               <td align="center">影片名称</td>
+               <td align="left">{{re.title}}</td>
+           </tr>
+           <tr>
+               <td align="center">评分</td>
+               <td align="left">{{re.rate}}</td>
+           </tr>
+           <tr>
+               <td align="center">电影导演</td>
+               <td align="left">{{re.director}}</td>
+           </tr>
+           <tr>
+               <td align="center">主演演员</td>
+               <td align="left">{{re.caste}}</td>
+           </tr>
+           <tr>
+               <td align="center">地域</td>
+               <td align="left">{{re.area}}</td>
+           </tr>
+       </table>
+        </div>
+        <div id="move_content">
+            <h3>电影简介</h3>
+            <p>{{ re.movie_review }}</p>
+        </div>
+    </div>
+</body>
+</html>

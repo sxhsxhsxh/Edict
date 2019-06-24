@@ -1,0 +1,120 @@
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,button{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#box{
+	width:1200px;
+	height:650px;
+	margin:0 auto;
+	/* background:rgba(48,35,42,1) */
+	background: linear-gradient(to right, #0D0E13 20%,rgba(76,46,58,1));
+}
+#top,#bottom{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	background:black;
+	/* background: linear-gradient(to right, blue, green 20%, yellow 50%, purple 80%, red); */
+}
+a{/* 1.��ߵ����� */
+	color:#999;
+	text-decoration:none;
+	font-size:20px;
+}
+#box #nav .c1{
+	background-clip:padding-box,border-box;
+	background-origin:padding-box,border-box;
+	background-image:linear-gradient(135deg,#2b2628,#2b2628),linear-gradient(135deg,#5be415,#161cd9);
+	border:2px transparent solid;
+	box-sizing:border-box;
+}
+/* 1.��ߵ����� */
+#nav{
+	float:left;
+	width:200px;
+	height:600px;
+}
+#nav .d1{
+	width:140px;
+	height:80px;
+	line-height:100px;
+	text-align:right;
+	padding-right:5px;
+	font-size:28px;
+	color:white;
+}
+#nav .d2{
+	width:140px;
+	height:60px;
+	line-height:60px;
+	text-align:right;
+	padding-right:5px;
+}
+#nav .d3{
+	width:140px;
+	height:60px;
+	text-align:right;
+	line-height:60px;
+	padding-right:5px;
+}
+#nav .d3:hover,#nav .d2:hover{
+	background-clip:padding-box,border-box;
+	background-origin:padding-box,border-box;
+	background-image:linear-gradient(135deg,#2b2628,#2b2628),linear-gradient(135deg,#5be415,#161cd9);
+	border:2px transparent solid;
+	box-sizing:border-box;
+}
+
+
+#nav,#main{
+	float:left;
+}
+#main{
+	float:left;
+	width:1000px;
+	height:550px;
+}
+#main img{
+	width:180px;
+	height:230px;
+}
+#main p{
+	color:white;
+
+}
+#main .history{
+	margin-top:30px;
+}
+#main .up,#main .down{
+	overflow:hidden;
+}
+#main .one{
+	float:left;
+	margin-right:50px;
+}
+#main p{
+	margin-left:50px;
+}
+#main>p{
+	margin-left:0;
+	font-size:20px;
+}
+#main a{
+	display:inline-block;
+	font-size:20px;
+	color:white;
+	width:150px;
+	height:35px;
+	background:#413B3D;
+	text-align:center;
+	line-height:35px;
+}
+#main a:hover{
+	background-clip:padding-box,border-box;
+	background-origin:padding-box,border-box;
+	background-image:linear-gradient(135deg,#2b2628,#2b2628),linear-gradient(135deg,#5be415,#161cd9);
+	border:2px transparent solid;
+	box-sizing:border-box;
+}

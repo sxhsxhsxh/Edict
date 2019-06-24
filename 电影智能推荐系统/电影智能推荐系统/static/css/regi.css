@@ -1,0 +1,43 @@
+body{margin: 0px;
+	padding: 0px;
+	background-image:url('../images/regeist-bj.jpg') ;
+	background-repeat: no-repeat;
+	background-size:100% ;
+	background-color:transparent;
+	position: relative;}
+	
+#top{width:1000px;
+	 }
+
+#top{width: 700px;
+	 height: 600px;
+	 border: 2px solid transparent;
+	 margin-top: 22px;
+	 margin-left: 350px;}
+
+#main{margin-left: 120px}
+#button{margin-left: 120px}
+
+.english-word{text-align: center;
+			  margin-bottom: 5px;}
+
+#top{position: relative}
+
+#top input{width:400px;
+		   height: 40px;
+		   display: inline-block;
+		   margin:30px auto ;
+		   border-radius:10px ;
+		   border: 0px solid transparent;
+		   }
+
+#button .reading{width:20px;
+			  height: 20px;
+			  margin-bottom:0px ;}
+
+#top .res{height: 50px;
+		  width: 130px;
+		  margin-left: 130px;
+		  }
+
+/*#top a{text-decoration: none;}*/

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>七人行--个人中心--设置</title>
+  <link rel="shortcut icon" href="/static/images/gr.png" type="image/png">
+  <link rel="stylesheet" href="/static/css/set.css" type="text/css">
+	 <script src="/static/js/jquery-1.11.3.js"></script>
+	 <script>
+		 $(function () {
+			$(".top").click(function () {
+				$(".top").each(function () {
+					$(this).css("background","#2b2628");
+                });
+				$(this).css({
+					'background-clip':'padding-box,border-box',
+					'background-origin':'padding-box,border-box',
+					'background-image':'linear-gradient(135deg,#2b2628,#2b2628),linear-gradient(135deg,#5be415,#161cd9)',
+					'border':'2px transparent solid'
+
+				})
+            })
+         });
+		 $(function () {
+			$(".bottom").click(function () {
+				$(".bottom").each(function () {
+					$(this).css("background","#2b2628");
+                });
+				$(this).css({
+					'background-clip':'padding-box,border-box',
+					'background-origin':'padding-box,border-box',
+					'background-image':'linear-gradient(135deg,#2b2628,#2b2628),linear-gradient(135deg,#5be415,#161cd9)',
+					'border':'2px transparent solid'
+
+				})
+            })
+         })
+
+
+
+	 </script>
+ </head>
+ <body>
+	<!-- 1.导航栏 -->
+	<div id="top"></div>
+	<div id="box">
+		<div id="nav">							
+			<div class="d1">个人中心</div>
+			<a href="history">
+				<div class="d2 c1">
+				观看历史
+				</div>
+			</a>
+			<a href="info">
+				<div class="d3 c2">
+				账号
+				</div>
+			</a>
+			<a href="member">
+				<div class="d3 c3">
+				会员
+				</div>
+			</a>
+			<a href="set">
+				<div class="d3 c4">
+				设置
+				</div>
+			</a>
+			<a href="update">
+				<div class="d3 c5">
+				关于
+				</div>
+			</a>
+		</div>
+		<div id="main">
+			<p class="up big">默认画质</p>
+			<p class="middle small">
+				<a href="#" class="img top">蓝光</a
+				><a href="#" class="img img1 default top">超清<img src="/static/tubiao/1223180.png"></a
+				><a href="#" class="img top">高清</a
+				><a href="#" class="img img2 top">标清</a>
+			</p>
+			<p class="big">跳过片头/片尾</p>
+			<p class="small">
+				<a href="#" class="img img1 default bottom">是<img src="/static/tubiao/1223180.png"></a
+				><a href="#" class="img img2 bottom">否</a>
+			</p>
+			<p class="big">清除缓存</p>
+			<p class="small">
+				<a href="" class="titles">清除</a>
+			</p>
+			<p class="big">意见反馈</p>
+			<p class="small">
+				<a href="" class="titles">我要反馈</a>
+			</p>
+		</div>
+	</div>
+	<div id="bottom"></div>
+ </body>
+</html>

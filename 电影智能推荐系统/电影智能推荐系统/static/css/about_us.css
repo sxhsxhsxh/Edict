@@ -1,0 +1,93 @@
+#a1 {
+	width: 1000px;
+	margin: auto auto;
+	list-style: none;
+	position: relative;
+}
+#a1 a{text-decoration: none;
+	  color:black;}
+#title{border-bottom: 1px solid lightblue;
+		height: 100px;}
+#title img{width: 100px;
+			vertical-align: top}
+#title span{font-size: 30px;
+			vertical-align: top;
+			color: #63BEDB;}
+
+#main ul{display: inline-block;
+		 margin-top: 50px;
+		 padding: 0;
+		 border-collapse: collapse;
+		}
+#main li{width: 200px;
+		 height: 60px;
+		 font-size: 20px;
+		 list-style: none;
+		 border-bottom: 1px dashed darkgray;}
+ .cust{position: absolute;
+		display: block;
+			width:300px;
+			left: 250px;
+			top: 137px;	}
+ .cust h1{margin-bottom: 0px;}
+ .cust h3{margin-top: 5px;
+		 font-weight: normal;
+		 font-size: 15px;
+		}
+.ask{border-top: 1px dashed darkgray;
+	border-bottom: 1px dashed darkgray;
+	width: 750px;
+	padding-top: 65px;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 250px;
+	top: 210px;}
+.ask button{height: 30px;
+			width: 80px;
+			vertical-align: top;
+			background-color: #91C727;
+			color:white;
+			text-align:center;
+			line-height: 30px;
+			border-radius:5px;
+			border:0px;
+			font-size: 15px;
+			margin: 10px 0 0 5px;}
+.tel{position: absolute;
+	left: 140px;
+	top:110px}
+.tel h3{font-weight: normal;
+		margin-bottom: 5px;}
+.tel h4{font-weight: normal;
+		margin-top: 0px;
+		width: 120px;}
+.ask h1{font-weight: normal;
+		margin-bottom: 5px;}
+.ask h5{font-weight: normal;
+		margin: 0px;
+		color:darkgray;}
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
